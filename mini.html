@@ -1,0 +1,135 @@
+ <html>
+    <head>
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>
+          Skintique
+        </title>
+         <link rel="icon" type="image/png" href="img.png">
+         <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <img src="img .jpg" alt="Skintique Logo" class="logo-fixed" />
+        <header>
+    <nav>
+      <h1 style="float:center" class="logo"><b>Skintique</b></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html" class="login-btn">Login</a></li>
+        <li><a href="cart.php">Cart &#128722;</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <!-- Hero Section -->
+<section id="shop" class="hero">
+    <div class="hero-text">
+      <h2>shine on</h2>
+      <p>beauty that reflects your spirit</p>
+    </div>
+</section>
+
+<!--Shop Section-->
+<section id="shop" class="shop">
+    <h2>Choose Your fav</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <a href="sunscreen.html"><img src="brand.png" alt="Product 1" /></a>
+        <h3>Sunscreen</h3>
+        <p>Rs.799</p>
+        <a href="add_to_cart.php?product_id=1&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=1&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+      <div class="product-card">
+        <a href="vitamin-C.html"><img src="foil.png" alt="Product 2" height="310"/></a>
+        <h3>Vitamin C</h3>
+        <p>Rs.1999</p>
+        <a href="add_to_cart.php?product_id=2&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=2&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+      <div class="product-card">
+        <a href="lipbalm.html"><img src="lipbalm.png" alt="Product 3"  height="310"/></a>
+        <h3>Lip Balm</h3>
+        <p>Rs.399</p>
+        <a href="add_to_cart.php?product_id=3&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=3&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+      <div class="product-card">
+        <a href="lipstik.html" ><img src="tint.png" alt="Product 3"  height="310"/></a>
+        <h3>Lipstick</h3>
+        <p>Rs.599</p>
+        <a href="add_to_cart.php?product_id=4&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=4&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+      <div class="product-card">
+        <a href="body_mosist.html"><img src="moist.png" alt="Product 3"  height="310"/></a>
+        <h3>Body Moisturizer</h3>
+        <p>Rs.999</p>
+        <a href="add_to_cart.php?product_id=5&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=5&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+      <div class="product-card">
+        <a href="soap.html"><img src="soap.png" alt="Product 3"  height="310"/></a>
+        <h3>Soap</h3>
+        <p>Rs.199</p>
+        <a href="add_to_cart.php?product_id=6&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=6&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+      <div class="product-card">
+        <a href="oil.html"><img src="oil.png" alt="Product 3"  height="310"/></a>
+        <h3>Hair Oil</h3>
+        <p>Rs.999</p>
+        <a href="add_to_cart.php?product_id=7&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=7&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+      <div class="product-card">
+        <a href="Shampoo.html"><img src="shampoo.png" alt="Product 3"  height="310"/></a>
+        <h3>Shampoo</h3>
+        <p>Rs.799</p>
+        <a href="add_to_cart.php?product_id=8&redirect=mini.html"><button>Add to Cart</button></a><br>
+        <a href="add_to_cart.php?product_id=8&redirect=checkout.php"><button>Buy Now</button></a>
+      </div>
+    </div>
+  </section>
+
+<section id="about" class="story">
+    <h1><b>Our story</b></h1>
+    <p>born from a passion for beauty rituals, we celebrate individuality and bring radiant confidence to everyone</p>
+    <p>for every body, anywhere.</p>
+</section>
+
+<footer id="contact">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Policy</h4>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Accessibility Statement</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>5th Cross Malleshwaram Streets<br>Bengaluru, 562149</p>
+      <p>Email: info@skintique.com</p>
+      <p>Phone: 123-456-7890</p>
+    </div>
+
+    <div class="footer-column feedback">
+      <h4>Send Us Your Feedback</h4>
+  <form method="POST" action="feedback_process.php">
+  <input type="text" name="username" placeholder="Enter your name" required>
+  <textarea name="message" placeholder="Enter your feedback" required></textarea>
+  <button type="submit" class="feedback">Submit</button>
+</form>
+    </div>
+  </div>
+  <div class="footer-note">
+    <p>&copy; 2035 by Skintique. Made with 💖</p>
+  </div>
+</footer>
+
+    </body>
+</html>
