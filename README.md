@@ -25,4 +25,20 @@ Skintique/ ├── Shampoo.html ├── body_moist.html ├── lipbalm.ht
 1. Clone the repository:
    ```bash
    git clone https://github.com/YeshashwiniG/Skintique.git
-   
+2 Place the project in your local server directory (e.g., htdocs for XAMPP).
+3 Start Apache and MySQL.
+4 Import the provided SQL file into your database (if included).
+5 Open in browser:
+http://localhost/Skintique/mini.html
+
+📖 Learning Goals
+This project was created to:
+- Practice PHP basics and database connectivity
+- Build a functional cart and checkout system
+- Showcase full‑stack skills in a portfolio/CV
+
+👩‍💻 Author
+Yeshashwini G
+Persistent, creative, and passionate about building seamless full‑stack web experiences.
+
+
